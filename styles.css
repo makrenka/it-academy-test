@@ -9,3 +9,15 @@
     font-weight: 400;
     src: url('./fonts/Cormorant/Cormorant-Bold.ttf') format('truetype');
 }
+
+.rubber-background {
+    background:
+        url('./img/left-top.png') no-repeat left top,
+        url('./img/right-top.png') no-repeat right top,
+        url('./img/right-bottom.png') no-repeat right bottom,
+        url('./img/left-bottom.png') no-repeat left bottom,
+        url('./img/middle-hor.png') repeat-x center top,
+        url('./img/middle-hor.png') repeat-x center bottom,
+        url('./img/middle-vert.png') repeat-y left center,
+        url('./img/middle-vert.png') repeat-y right center;
+}
